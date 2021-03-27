@@ -3,7 +3,6 @@
 A lightweight real-time over-the-air translations framework for iOS.
 
 ## Introduction
----
 
 Dialect allows you to update your app's translations without having to submit app updates and going through the review process to simply change a translation key. 
 
@@ -17,7 +16,6 @@ For an Android option I'd recommend [restring](https://github.com/B3nedikt/restr
 
 
 ## Requirements
----
 
 - Xcode 11+
 - iOS 9 or above
@@ -25,7 +23,6 @@ For an Android option I'd recommend [restring](https://github.com/B3nedikt/restr
 
 
 ## Installation
----
 
 Dialect does not use any external dependencies.
 
@@ -52,7 +49,6 @@ end
 ```
 
 ## Usage
----
 
 #### Objective-C
 
@@ -78,7 +74,6 @@ import Dialect
 ```
 
 ## Documentation
----
 
 Dialect stores localized strings as key value dictionaries. Similar to how NSBundle supports multiple localization files by using table names, Dialect also supports multiple localization dictionaries, one for each table name. When you try to get a localized string from Dialect, it will first look for a value in its own localization dictionary. If no value was found (or no localization dictionary exists) it will fallback to the localized string from the bundle.
 
@@ -216,5 +211,5 @@ button.setTitleForLocalization(key: "some_key", state: .normal)
 ```
 
 ## License
----
+
 Dialect is released under an [MIT License](https://opensource.org/licenses/MIT). See LICENSE for details.
