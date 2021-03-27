@@ -26,13 +26,13 @@ For an Android option I'd recommend [restring](https://github.com/B3nedikt/restr
 
 Dialect does not use any external dependencies.
 
-#### Manually
+### Manually
 
 1. Open Dialect.xcodeproj
 2. Build the Dialect-iOS scheme
 3. Copy the generated Dialect.framework file to your project
 
-#### Using CocoaPods
+### Using CocoaPods
 
 Add Dialect to your Podfile and run `pod install`.
 
@@ -50,7 +50,7 @@ end
 
 ## Usage
 
-#### Objective-C
+### Objective-C
 
 Import Dialect.h in the implementation files (or in a Prefix header):
 
@@ -58,7 +58,7 @@ Import Dialect.h in the implementation files (or in a Prefix header):
 #import <Dialect/Dialect.h>
 ```
 
-#### Swift
+### Swift
 
 Import Dialect.h in the Objective-C Bridging Header:
 
@@ -77,7 +77,7 @@ import Dialect
 
 Dialect stores localized strings as key value dictionaries. Similar to how NSBundle supports multiple localization files by using table names, Dialect also supports multiple localization dictionaries, one for each table name. When you try to get a localized string from Dialect, it will first look for a value in its own localization dictionary. If no value was found (or no localization dictionary exists) it will fallback to the localized string from the bundle.
 
-#### Downloading localization dictionaries
+### Downloading localization dictionaries
 
 Dialect contains a built in download method that allows you to easily download localization dictionaries. It expects a JSON object with string values as a response:
 
@@ -126,7 +126,7 @@ Dialect.localizationDictionary(forTable: nil)
 [Dialect localizationDictionaryForTable:nil];
 ```
 
-#### Getting a localized string
+### Getting a localized string
 
 Getting a localized string is easy, just call the stringFor method on the Dialect class to get the value for that key. The example below will get a localized string from the default localization dictionary and fallback to the default strings file if necessary.
 
@@ -170,7 +170,7 @@ label.text = DIALocalizedString("some_key", comment: "")
 label.text = DIALocalizedString(@"some_key", @"");
 ```
 
-#### Real-time Automatic Updates
+### Real-time Automatic Updates
 
 Dialect supports real-time automatic updates of localized objects. This means that you can set a localization key on any object (not limited to UI). Should new translations be downloaded and that key has changed, the object will receive a callback allowing it to update itself for the new localized string. This means you can simply set a localization key to an object and forget about it. If new translations are downloaded the UI will update itself automatically!
 
