@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+abstract_target 'iOS' do
+  target 'Dialect-iOS'
+  platform :ios, "9.0"
+
+  pod 'Dialect', :path => '../../'
+end

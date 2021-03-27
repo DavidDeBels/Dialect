@@ -1,0 +1,16 @@
+PODS:
+  - Dialect (1.0.0)
+
+DEPENDENCIES:
+  - Dialect (from `../../`)
+
+EXTERNAL SOURCES:
+  Dialect:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Dialect: b439082b8b0c7bdf98c43ff539ceafc3b145f429
+
+PODFILE CHECKSUM: 70488ebeee80eee5e974b47d2bea817290f523e8
+
+COCOAPODS: 1.10.1

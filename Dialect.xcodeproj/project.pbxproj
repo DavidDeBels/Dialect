@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6312A5E4260F1C1200FFD9EC /* DIALocalizable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6312A5D6260F1C1200FFD9EC /* DIALocalizable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6312A5E5260F1C1200FFD9EC /* NSObject+DIALocalizable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6312A5D8260F1C1200FFD9EC /* NSObject+DIALocalizable.m */; };
+		6312A5E6260F1C1200FFD9EC /* UIButton+DIALocalizable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6312A5D9260F1C1200FFD9EC /* UIButton+DIALocalizable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6312A5E7260F1C1200FFD9EC /* UITextField+DIALocalizable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6312A5DA260F1C1200FFD9EC /* UITextField+DIALocalizable.m */; };
+		6312A5E8260F1C1200FFD9EC /* UILabel+DIALocalizable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6312A5DB260F1C1200FFD9EC /* UILabel+DIALocalizable.m */; };
+		6312A5E9260F1C1200FFD9EC /* UIButton+DIALocalizable.m in Sources */ = {isa = PBXBuildFile; fileRef = 6312A5DC260F1C1200FFD9EC /* UIButton+DIALocalizable.m */; };
+		6312A5EA260F1C1200FFD9EC /* NSObject+DIALocalizable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6312A5DD260F1C1200FFD9EC /* NSObject+DIALocalizable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6312A5EB260F1C1200FFD9EC /* UITextField+DIALocalizable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6312A5DE260F1C1200FFD9EC /* UITextField+DIALocalizable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6312A5EC260F1C1200FFD9EC /* UILabel+DIALocalizable.h in Headers */ = {isa = PBXBuildFile; fileRef = 6312A5DF260F1C1200FFD9EC /* UILabel+DIALocalizable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6312A5EF260F1C1200FFD9EC /* Dialect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6312A5E3260F1C1200FFD9EC /* Dialect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6312A5F1260F1D7100FFD9EC /* DIALocalizedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 6312A5F0260F1D7100FFD9EC /* DIALocalizedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6312A67A260F37D500FFD9EC /* DIALocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6312A678260F37D500FFD9EC /* DIALocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6312A67B260F37D500FFD9EC /* DIALocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6312A679260F37D500FFD9EC /* DIALocalization.m */; };
+		6312A67D260F37E100FFD9EC /* DIALocalization+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6312A67C260F37E100FFD9EC /* DIALocalization+Private.h */; };
+		6312A686260F550B00FFD9EC /* DIALocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6312A685260F550B00FFD9EC /* DIALocalizedString.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6312A5D6260F1C1200FFD9EC /* DIALocalizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALocalizable.h; sourceTree = "<group>"; };
+		6312A5D8260F1C1200FFD9EC /* NSObject+DIALocalizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DIALocalizable.m"; sourceTree = "<group>"; };
+		6312A5D9260F1C1200FFD9EC /* UIButton+DIALocalizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DIALocalizable.h"; sourceTree = "<group>"; };
+		6312A5DA260F1C1200FFD9EC /* UITextField+DIALocalizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+DIALocalizable.m"; sourceTree = "<group>"; };
+		6312A5DB260F1C1200FFD9EC /* UILabel+DIALocalizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DIALocalizable.m"; sourceTree = "<group>"; };
+		6312A5DC260F1C1200FFD9EC /* UIButton+DIALocalizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DIALocalizable.m"; sourceTree = "<group>"; };
+		6312A5DD260F1C1200FFD9EC /* NSObject+DIALocalizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DIALocalizable.h"; sourceTree = "<group>"; };
+		6312A5DE260F1C1200FFD9EC /* UITextField+DIALocalizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+DIALocalizable.h"; sourceTree = "<group>"; };
+		6312A5DF260F1C1200FFD9EC /* UILabel+DIALocalizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DIALocalizable.h"; sourceTree = "<group>"; };
+		6312A5E3260F1C1200FFD9EC /* Dialect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dialect.h; sourceTree = "<group>"; };
+		6312A5F0260F1D7100FFD9EC /* DIALocalizedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIALocalizedString.h; sourceTree = "<group>"; };
+		6312A678260F37D500FFD9EC /* DIALocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIALocalization.h; sourceTree = "<group>"; };
+		6312A679260F37D500FFD9EC /* DIALocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIALocalization.m; sourceTree = "<group>"; };
+		6312A67C260F37E100FFD9EC /* DIALocalization+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DIALocalization+Private.h"; sourceTree = "<group>"; };
+		6312A685260F550B00FFD9EC /* DIALocalizedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIALocalizedString.swift; sourceTree = "<group>"; };
+		63CA5273260DEBB80057842D /* Dialect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dialect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63CA5276260DEBB80057842D /* Dialect-iOS-Framework.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dialect-iOS-Framework.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63CA5270260DEBB80057842D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6312A5D4260F1C1200FFD9EC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6312A5D5260F1C1200FFD9EC /* Classes */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6312A5D5260F1C1200FFD9EC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6312A5E3260F1C1200FFD9EC /* Dialect.h */,
+				6312A678260F37D500FFD9EC /* DIALocalization.h */,
+				6312A679260F37D500FFD9EC /* DIALocalization.m */,
+				6312A5D6260F1C1200FFD9EC /* DIALocalizable.h */,
+				6312A5F0260F1D7100FFD9EC /* DIALocalizedString.h */,
+				6312A685260F550B00FFD9EC /* DIALocalizedString.swift */,
+				6312A5D7260F1C1200FFD9EC /* Localizables */,
+				6312A5E1260F1C1200FFD9EC /* Private */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6312A5D7260F1C1200FFD9EC /* Localizables */ = {
+			isa = PBXGroup;
+			children = (
+				6312A5DD260F1C1200FFD9EC /* NSObject+DIALocalizable.h */,
+				6312A5D8260F1C1200FFD9EC /* NSObject+DIALocalizable.m */,
+				6312A5DF260F1C1200FFD9EC /* UILabel+DIALocalizable.h */,
+				6312A5DB260F1C1200FFD9EC /* UILabel+DIALocalizable.m */,
+				6312A5D9260F1C1200FFD9EC /* UIButton+DIALocalizable.h */,
+				6312A5DC260F1C1200FFD9EC /* UIButton+DIALocalizable.m */,
+				6312A5DE260F1C1200FFD9EC /* UITextField+DIALocalizable.h */,
+				6312A5DA260F1C1200FFD9EC /* UITextField+DIALocalizable.m */,
+			);
+			path = Localizables;
+			sourceTree = "<group>";
+		};
+		6312A5E1260F1C1200FFD9EC /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				6312A67C260F37E100FFD9EC /* DIALocalization+Private.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		63CA5249260DEB1A0057842D = {
+			isa = PBXGroup;
+			children = (
+				6312A5D4260F1C1200FFD9EC /* Source */,
+				63CA5274260DEBB80057842D /* Dialect-iOS */,
+				63CA5253260DEB1A0057842D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63CA5253260DEB1A0057842D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63CA5273260DEBB80057842D /* Dialect.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63CA5274260DEBB80057842D /* Dialect-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				63CA5276260DEBB80057842D /* Dialect-iOS-Framework.plist */,
+			);
+			path = "Dialect-iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		63CA526E260DEBB80057842D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6312A5E4260F1C1200FFD9EC /* DIALocalizable.h in Headers */,
+				6312A5E6260F1C1200FFD9EC /* UIButton+DIALocalizable.h in Headers */,
+				6312A5EB260F1C1200FFD9EC /* UITextField+DIALocalizable.h in Headers */,
+				6312A5F1260F1D7100FFD9EC /* DIALocalizedString.h in Headers */,
+				6312A5EA260F1C1200FFD9EC /* NSObject+DIALocalizable.h in Headers */,
+				6312A5EF260F1C1200FFD9EC /* Dialect.h in Headers */,
+				6312A67D260F37E100FFD9EC /* DIALocalization+Private.h in Headers */,
+				6312A67A260F37D500FFD9EC /* DIALocalization.h in Headers */,
+				6312A5EC260F1C1200FFD9EC /* UILabel+DIALocalizable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		63CA5272260DEBB80057842D /* Dialect-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63CA527F260DEBB80057842D /* Build configuration list for PBXNativeTarget "Dialect-iOS" */;
+			buildPhases = (
+				63CA526E260DEBB80057842D /* Headers */,
+				63CA526F260DEBB80057842D /* Sources */,
+				63CA5270260DEBB80057842D /* Frameworks */,
+				63CA5271260DEBB80057842D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dialect-iOS";
+			productName = "Dialect-iOS";
+			productReference = 63CA5273260DEBB80057842D /* Dialect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63CA524A260DEB1A0057842D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = FlightRange;
+				TargetAttributes = {
+					63CA5272260DEBB80057842D = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = 63CA524D260DEB1A0057842D /* Build configuration list for PBXProject "Dialect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63CA5249260DEB1A0057842D;
+			productRefGroup = 63CA5253260DEB1A0057842D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63CA5272260DEBB80057842D /* Dialect-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63CA5271260DEBB80057842D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63CA526F260DEBB80057842D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6312A5E8260F1C1200FFD9EC /* UILabel+DIALocalizable.m in Sources */,
+				6312A686260F550B00FFD9EC /* DIALocalizedString.swift in Sources */,
+				6312A5E9260F1C1200FFD9EC /* UIButton+DIALocalizable.m in Sources */,
+				6312A67B260F37D500FFD9EC /* DIALocalization.m in Sources */,
+				6312A5E5260F1C1200FFD9EC /* NSObject+DIALocalizable.m in Sources */,
+				6312A5E7260F1C1200FFD9EC /* UITextField+DIALocalizable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63CA5269260DEB1C0057842D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63CA526A260DEB1C0057842D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63CA527D260DEBB80057842D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Dialect-iOS/Dialect-iOS-Framework.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.O;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.flightrange.dialect-ios-framework";
+				PRODUCT_NAME = Dialect;
+				SKIP_INSTALL = NO;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63CA527E260DEBB80057842D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Dialect-iOS/Dialect-iOS-Framework.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.O;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.flightrange.dialect-ios-framework";
+				PRODUCT_NAME = Dialect;
+				SKIP_INSTALL = NO;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63CA524D260DEB1A0057842D /* Build configuration list for PBXProject "Dialect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CA5269260DEB1C0057842D /* Debug */,
+				63CA526A260DEB1C0057842D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63CA527F260DEBB80057842D /* Build configuration list for PBXNativeTarget "Dialect-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CA527D260DEBB80057842D /* Debug */,
+				63CA527E260DEBB80057842D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63CA524A260DEB1A0057842D /* Project object */;
+}

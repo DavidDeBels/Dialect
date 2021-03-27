@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  Dialect-Sample
+
+  Created by David De Bels on 27/03/2021.
+  Copyright © 2021 FlightRange. All rights reserved.
+*/
+
+"home_navbar_title" = "Dialect Demo - {language}";
+
+"home_title" = "Realtime OTA translations";
+
+"home_subtitle" = "Version v{vrsion}";
+
+"home_textfield_title" = "Email";
+
+"home_textfield_placeholder" = "Enter email";
+
+"home_text1" = "Using Dialect you can easily update your app's translations on the fly. You are in cotrol, no need to upgrade to more expensive Phrase, Localise, ... plans just for OTA translations. Host it yourself and save money.";
+
+"home_text2" = "* Store custom localization dictionaries\n* Easily find-replace values within a translation\n* Use the built in download function or manage the download yourself\n* Automatically use the most recent translations after app launch* Respond to real time updates: execute your own logic whenever a key is updated\n* Localize anything, not just UI";
+
+"home_info" = "Localize any type of control";
+
+"home_button" = "Next";
