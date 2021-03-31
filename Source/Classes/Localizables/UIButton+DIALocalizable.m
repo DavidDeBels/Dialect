@@ -19,11 +19,11 @@
 // MARK: DIALocalizable
 
 - (void)setLocalizationKey:(NSString *)localizationKey onUpdate:(void (^)(NSString * _Nonnull, NSString * _Nullable, UIButton * _Nonnull))onUpdate {
-    [super setLocalizationKey:localizationKey onUpdate:onUpdate];
+    [super setLocalizationKey:localizationKey onUpdate:(void (^)(NSString *, NSString *, id<DIALocalizable>))onUpdate];
 }
 
 - (void)setLocalizationKey:(NSString *)localizationKey table:(NSString *)table onUpdate:(void (^)(NSString * _Nonnull, NSString * _Nullable, UIButton * _Nonnull))onUpdate {
-    [super setLocalizationKey:localizationKey table:table onUpdate:onUpdate];
+    [super setLocalizationKey:localizationKey table:table onUpdate:(void (^)(NSString *, NSString *, id<DIALocalizable>))onUpdate];
 }
 
 // MARK: UIButton specific
